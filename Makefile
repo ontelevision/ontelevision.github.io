@@ -27,6 +27,13 @@ DROPBOX_DIR=~/Dropbox/Public/
 
 GITHUB_PAGES_BRANCH=master
 
+APP=ontelevision
+VENV_HOME=~/virtualenvs
+VENV_DIR=$(VENV_HOME)/$(APP)
+VENV_BIN=virtualenv
+PYTHON_BIN=$(VENV_DIR)/bin/python
+PIP_BIN=$(VENV_DIR)/bin/pip
+
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
@@ -66,6 +73,7 @@ html:
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+	[ ! -d $(VENV_DIR) ] || rm -rf $(VENV_DIR)
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
@@ -98,6 +106,14 @@ stopserver:
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+
+venv:
+	test -d $(VENV_HOME) || mkdir -p $(VENV_HOME)
+	test -d $(VENV_DIR)  || $(VENV_BIN) $(VENV_DIR)
+	$(PIP_BIN) install --upgrade pip
+
+install: venv
+	$(PIP_BIN) install -r requirements.txt
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
