@@ -11,15 +11,13 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'http://ontelevision.github.io'
-#RELATIVE_URLS = False
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
-
+# Make tracking content comments and site usage easy to track.
 DISQUS_SITENAME = "ontelevision"
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-75857917-1"

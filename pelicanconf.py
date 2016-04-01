@@ -7,9 +7,10 @@ SITENAME = u'On Television'
 SITEURL = 'http://ontelevision.github.io'
 
 PATH = 'content'
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
+ARTICLE_URL = '{date:%Y}/{slug}.html'
 
 TIMEZONE = 'America/Edmonton'
-
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
@@ -29,6 +30,7 @@ AUTHOR_FEED_RSS = None
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
+# Limit the number of articles on each page to something sane.
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when
@@ -43,4 +45,3 @@ THEME = "themes/Flex"
 DEFAULT_METADATA = {
     'status': 'draft',
 }
-
