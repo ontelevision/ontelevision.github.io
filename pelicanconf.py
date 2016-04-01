@@ -31,8 +31,16 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 10
 
-# Uncomment following line if you want document-relative URLs when developing
+# Uncomment following line if you want document-relative URLs when
+# developing.
 RELATIVE_URLS = True
 
+# Set the them to our local one, as we will be changing it to suit our
+# needs.
 THEME = "themes/Flex"
+
+# Articles should be automatically published as a draft.
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
 
