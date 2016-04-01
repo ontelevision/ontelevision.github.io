@@ -1,12 +1,12 @@
 Title: City of Men
 Date: 2016-03-21 5:00
 Modified: 2010-12-05 19:30
+Status: published
 Category: Foreign
 Tags: Brazil, Crime, Drama
 Slug: city-of-men
 Authors: Ben Burnett
-Summary: City of Men
-Status: published
+Summary: Life, drama and crime in the streets of Rio de Janeiro.
 
 [City of Men](http://www.imdb.com/title/tt0870090/) (7.3 IMDb)&mdash;a
 sort-of-like-a-follow-up to [City of
