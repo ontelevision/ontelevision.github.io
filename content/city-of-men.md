@@ -44,12 +44,19 @@ excursion.
 The camera is not shy of darting around as the characters scurry in
 the streets, busily going about their work. It closely follows our
 protagonists as they make their way to their first marks. A
-grandmother and, what we can only assume to be a lover to one of the
-character's mothers, take the bait, and provide the boys with requisite
-liquidity for the next day's tour.
+grandmother and&mdash;what we can only assume to be a lover to one of
+the character's mothers&mdash;take the bait, and provide the boys with
+requisite liquidity for the next day's tour.
+
+After one of the boys is robbed on the morning of the trip, the other
+offers to help: they put together a scheme to ask one of the drug
+lords for money. The rub: the plan involves blaming the lord's rival
+for the robbery&mdash;from which a shoot-out with a gruesome and
+tragic end is spawned.
 
 Acerola and Laranjinha face a neighborhood&mdash;and a city&mdash;torn
 by hate, crime, and lives lived on the fringe of civility. Theirs is a
 life that only a scant few of us can related to. A view through this
-lens, provides a small glimpse in to a foreign world, with both it's
-beauty and harshness exposed... That said, it's well worth taking a look.
+lens provides a small glimpse in to a foreign world, with both it's
+beauty and harshness exposed... That said, it's well worth taking a
+look.
